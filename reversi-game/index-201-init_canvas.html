@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -17,9 +17,9 @@
       
 	$(function() {
 		// 縦横比固定でキャンバス作成
-		var id = "reversi";
-		var sz = game.core.getFitSz(10, 11);
-		var c = game.canvas.initCnvs(id, sz.w, sz.h);
+		const id = "reversi";
+		const sz = game.core.getFitSz(10, 11);
+		const c = game.canvas.initCnvs(id, sz.w, sz.h);
 
 		// 全面色塗り
 		c.cntx.fillStyle = "#faa";
